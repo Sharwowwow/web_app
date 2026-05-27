@@ -565,7 +565,7 @@ function App() {
 
               {selectedOrder.pickupCode && (
                 <>
-                  <div className="section-title">圆通取件码</div>
+                  <div className="section-title" style={{ color: '#3182ce', fontSize: '1.05rem', fontWeight: 700 }}>圆通取件码</div>
                   <div style={{ 
                     background: 'var(--color-red-light)', 
                     border: '1px solid var(--color-red)',
