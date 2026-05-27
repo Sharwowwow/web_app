@@ -565,21 +565,21 @@ function App() {
 
               {selectedOrder.pickupCode && (
                 <>
-                  <div className="section-title">取件码</div>
+                  <div className="section-title">圆通取件码</div>
                   <div style={{ 
-                    background: '#fffaf0', 
-                    border: '1px solid var(--color-warning)',
+                    background: 'var(--color-red-light)', 
+                    border: '1px solid var(--color-red)',
                     padding: '1rem', 
                     borderRadius: '8px', 
                     fontSize: '1.2rem', 
                     fontWeight: 700, 
-                    color: '#c05621',
+                    color: 'var(--color-red)',
                     marginBottom: '1.5rem',
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.5rem'
                   }}>
-                    <PackageOpen size={20} color="#c05621" />
+                    <PackageOpen size={20} color="var(--color-red)" />
                     <span>{selectedOrder.pickupCode}</span>
                   </div>
                 </>
